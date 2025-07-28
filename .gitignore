@@ -1,38 +1,26 @@
-# Build
-/target/
-*.class
-
-# Maven
-*.log
-.mvn/
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-
-# Gradle
-.gradle/
-build/
-
-# IntelliJ IDEA
-.idea/
-*.iml
-*.ipr
-*.iws
+# ======================
+# Java + Maven Projects
+# ======================
 
 # Eclipse
 .project
 .classpath
+.factorypath
 .settings/
-bin/
 
-# OS files
+# IntelliJ
+.idea/
+*.iml
+
+# Maven build
+target/
+*.jar
+
+# Logs and Debug files
+*.log
+hs_err_pid*.log
+replay_pid*.log
+
+# OS/System files
 .DS_Store
 Thumbs.db
-
-# Logs
-*.log
-
-# Env files
-.env
-application.properties
-application.yml
